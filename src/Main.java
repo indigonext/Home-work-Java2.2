@@ -1,8 +1,8 @@
 public class Main {
     public static void main(String[] args) {
     int score = 100; // сумма которая была на счету
-    int deposit = 1100; // сумма которую вносят на счет
-    if (deposit >= 1000){
+    int deposit = 1000; // сумма которую вносят на счет
+    if (deposit > 1000){
         double bonus = (deposit * 0.01);
         System.out.println ("Бонус за пополнение " + bonus + " рублей");
         double depositBonus = (deposit + bonus);
